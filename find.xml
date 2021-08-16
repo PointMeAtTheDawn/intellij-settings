@@ -5,5 +5,8 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.properties</mask>
     <mask>*.tool-versions</mask>
+    <mask>!venv/* !_vendor/*</mask>
+    <mask>!venv/*&amp;&amp;!_vendor/*</mask>
+    <mask>!venv//*&amp;&amp;!_vendor//*</mask>
   </component>
 </application>
